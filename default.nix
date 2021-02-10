@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
   name = "remacs-${version}";
 
   buildInputs = [
-    systemd texinfo libjpeg libtiff giflib xorg.libXpm gtk3
+    texinfo libjpeg libtiff giflib xorg.libXpm gtk3
     gnutls ncurses libxml2 xorg.libXt imagemagick librsvg gpm dbus
     libotf clang_6 pkgconfig autoconf rustup
   ];
